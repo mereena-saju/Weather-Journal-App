@@ -10,13 +10,6 @@ const getWeather = async () => {
     let zip = document.getElementById('zip').value;
     retrieveData(baseUrl + zip + '&units=metric&appid=' + apiKey)
         .then(function (apiData) {
-            // let userRes = document.getElementById('feelings').value;
-            // let temp = apiData.main.temp;
-            // let newEntry = {
-            //     temp: temp,
-            //     date: newDate,
-            //     userResponse: userRes
-            // }
             let newEntry = processData(apiData);
             postData('/addWeather', newEntry)
         })
