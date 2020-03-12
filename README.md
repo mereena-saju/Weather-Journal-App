@@ -4,15 +4,15 @@
 This project's goal is to create an asynchronous web app that uses API and user data to dynamically update the UI. 
 
 ## PreRequisite Knowledge
--Asynchronous JavaScript
--JavaScript Promises
--Node
--Express
--Concept of async and await
--JSON
--Use of Fetch
--GET and POST
--Chaining Promises
+- Asynchronous JavaScript
+- JavaScript Promises
+- Node
+- Express
+- Concept of async and await
+- JSON
+- Use of Fetch
+- GET and POST
+- Chaining Promises
 
 ## Installation
 1. Install node to local machine.
